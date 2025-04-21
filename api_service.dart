@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  final String apiKey = "RGR7lK4GydSoSuGzTCJIngc6GjyK77oLtBnN-pBxv2M"; 
+  final String apiKey = "API KEY HERE"; 
 
   Future<List<String>> fetchImages() async {
     final url = Uri.parse('https://api.unsplash.com/photos?client_id=$apiKey');
